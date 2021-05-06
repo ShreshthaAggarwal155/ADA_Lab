@@ -25,9 +25,9 @@ int main()
 {
     int i,j,con,s[10],flag;
     printf("Enter number of vertices : ");
-	scanf("%d",&n);
-	printf("\nEnter adjecency matrix of the graph :\n");
-	for(i=0;i<n;i++)
+    scanf("%d",&n);
+    printf("\nEnter adjecency matrix of the graph :\n");
+    for(i=0;i<n;i++)
     {
         printf("Enter row %d : -\n",i+1);
         for(j=0;j<n;j++)
