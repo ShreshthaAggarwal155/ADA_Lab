@@ -5,9 +5,9 @@ int G[10][10],v[10],n,a[1][10];
 void dfs(int i)
 {
     int j;
-	  printf("\n%d",i);
+    printf("\n%d",i);
     v[i]=1;
-	  for(j=0;j<n;j++){
+    for(j=0;j<n;j++){
        if(!v[j]&&G[i][j]==1)
             dfs(j);
 	}
