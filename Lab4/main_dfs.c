@@ -8,8 +8,8 @@ void dfs(int i)
 	printf("\n%d",i);
     v[i]=1;
 	for(j=0;j<n;j++){
-       if(!v[j]&&G[i][j]==1)
-            dfs(j);
+            if(!v[j]&&G[i][j]==1)
+                dfs(j);
 	}
 }
 void dfs_c(int n,int G[10][10],int m,int s[])
