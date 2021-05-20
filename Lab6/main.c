@@ -67,7 +67,7 @@ int main(){
         k++;
         for(v=0;v<n;v++){
             if(a[u][v]==1){
-                ((indegree[v])--);
+                indegree[v]--;
                 if(indegree[v]==0){
                     push(v);
                 }
