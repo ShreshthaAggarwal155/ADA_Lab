@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
-int a[10][10],indegree[10],front=-1,rear=-1,stack[10],t[10],k,n;
+int a[10][10],indegree[10],front=-1,rear=-1,stack[10],t[10],k=0,n;
 void get(int n){
     int i,j;
     printf("Enter the adjacency matrix :\n");
