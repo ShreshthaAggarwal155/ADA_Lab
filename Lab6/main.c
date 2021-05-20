@@ -54,7 +54,7 @@ int main(){
     double t_time=0.0;
     clock_t begin=clock();
     cal_indegree(n);
-    for(int i=0;i<n;i++){
+    for(i=0;i<n;i++){
         if(indegree[i]==0){
             push(i);
         }
@@ -77,7 +77,7 @@ int main(){
     clock_t end=clock();
     t_time+=(double)(end-begin)/CLOCKS_PER_SEC;
     printf("\nThe topological order is : ");
-    for(int i=0;i<k;i++){
+    for(i=0;i<k;i++){
         printf("%d\t",t[i]);
     }
     printf("\nFor matrix n=%d\tTime:%f\n",n,t_time);
